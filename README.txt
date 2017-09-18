@@ -1,7 +1,8 @@
 The code was taken from JSONRPC4Lua and modified to work without
 luasockets. Now it uses HTTPApiTable which works 
 through callbacks.
-To run this mod you need to add secure.http_mods = rpc to minetest.conf.
+To run this mod you need to add this setting to minetest.conf:
+    secure.http_mods = jsonrpc4minetestlua
 
 Usage is like JSONRPC4Lua, but with callbacks:
 
